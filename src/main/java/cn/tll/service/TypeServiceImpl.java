@@ -101,6 +101,6 @@ public class TypeServiceImpl implements TypeService{
      */
     @Override
     public Type findByName(String name) {
-        return null;
+        return typeDao.findByName(name);
     }
 }
